@@ -1,4 +1,4 @@
-# joshjaimes.github.io
+
 
 Josue Jaimes
 Electrical Engineering Student
@@ -13,4 +13,4 @@ Projects
 
 Contact
 - Email: josueejaimes@gmal.com
-- LinkedIn: https://www.linkedin.com/in/josue-jaimes-a2968724b/?skipRedirect=true
+- LinkedIn: https://www.linkedin.com/in/josue-jaimes-a2968724b
