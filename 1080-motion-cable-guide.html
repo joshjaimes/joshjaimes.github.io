@@ -1,11 +1,479 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>1080 Motion Cable Guide | Josue Jaimes</title><link rel="stylesheet" href="styles.css"><script defer src="script.js"></script></head><body>
-<header class="header"><nav><a class="logo" href="index.html">Josue Jaimes</a><button class="menu-btn">☰</button><div class="links"><a href="projects.html">Projects</a><a href="experience.html">Experience</a><a href="skills.html">Skills</a><a href="about.html">About</a><a href="contact.html">Contact</a><a class="resume-link" href="Josue_Jaimes_Resume.pdf" target="_blank">Resume</a></div></nav></header>
-<main>
-<section class="case-hero"><div class="case-hero-copy reveal"><a class="back-link" href="projects.html">← Back to Projects</a><p class="tag">Commercial Product Improvement</p><h1>1080 Motion Cable Guide</h1><p class="case-summary">Designed, prototyped, manufactured, and validated a production-ready cable guide that prevents premature cable wear on a commercial 1080 Motion training system. The project focused on solving a recurring mechanical failure while maintaining compatibility with the existing hardware.</p><div class="case-meta"><div><strong>Role</strong><span>Design • CAD • Prototyping • Validation</span></div><div><strong>Tools</strong><span>CAD, 3D Printing, Measurement, Hardware Testing</span></div><div><strong>Result</strong><span>Production-ready preventative solution</span></div></div></div><div class="case-hero-image reveal"><img src="mounted.jpeg" alt=""></div></section>
-<section class="case-section two-column"><div class="case-copy reveal"><p class="tag">Problem</p><h2>Identifying the root cause.</h2><p>During routine hardware inspections I identified recurring cable damage caused by repeated contact with the aluminum edge near the upper pulley assembly. Left unresolved, the abrasion would eventually weaken the cable and increase maintenance requirements.</p><p>The objective was to eliminate cable contact without modifying the existing assembly or affecting normal operation.</p></div><figure class="case-image reveal"><img src="issue.jpeg"><figcaption>Observed cable wear.</figcaption></figure></section>
-<section class="case-section alt-case two-column reverse"><figure class="case-image reveal"><img src="rendering.jpeg"></figure><div class="case-copy reveal"><p class="tag">Design</p><h2>Engineering the solution.</h2><p>Using measurements from the existing assembly, I designed a custom cable guide that mounts using existing fasteners while redirecting the cable away from the wear point. Smooth radii reduce abrasion while preserving the original cable path.</p><ul class="case-list"><li>No permanent modification</li><li>Uses existing fasteners</li><li>Designed for manufacturing</li><li>Validated clearances</li></ul></div></section>
-<section class="case-section two-column"><div class="case-copy reveal"><p class="tag">Prototype</p><h2>Rapid prototyping.</h2><p>The design was manufactured on a Bambu Lab printer for rapid fit verification and functional testing, allowing quick iterations before deployment.</p></div><figure class="case-image reveal"><img src="prototype.jpeg"></figure></section>
-<section class="case-section alt-case two-column reverse"><figure class="case-image reveal"><img src="production.jpeg"></figure><div class="case-copy reveal"><p class="tag">Production</p><h2>Batch manufacturing.</h2><p>Once validated, multiple parts were produced simultaneously for deployment across additional systems, improving manufacturing efficiency while maintaining dimensional consistency.</p></div></section>
-<section class="case-section"><p class="tag">Results</p><h2>A simple solution with measurable impact.</h2><div class="result-grid"><div class="result-card"><strong>Reduced Wear</strong><span>Eliminated cable contact with the aluminum edge.</span></div><div class="result-card"><strong>Retrofit Design</strong><span>No permanent modification required.</span></div><div class="result-card"><strong>Production Ready</strong><span>Validated on commercial hardware.</span></div></div></section>
-<section class="case-section"><p class="tag">Engineering Skills Demonstrated</p><div class="tags large-tags"><span>Root Cause Analysis</span><span>CAD Modeling</span><span>Rapid Prototyping</span><span>3D Printing</span><span>Design for Manufacturing</span><span>Hardware Validation</span><span>Technical Documentation</span><span>Problem Solving</span></div></section>
-</main></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>1080 Motion Cable Guide | Josue Jaimes</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+
+<header class="header">
+  <nav>
+    <a class="logo" href="index.html">Josue Jaimes</a>
+
+    <button class="menu-btn" aria-label="Toggle navigation">
+      ☰
+    </button>
+
+    <div class="links">
+      <a href="projects.html">Projects</a>
+      <a href="experience.html">Experience</a>
+      <a href="skills.html">Skills</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+
+      <a
+        class="resume-link"
+        href="Josue_Jaimes_Resume.pdf"
+        target="_blank"
+      >
+        Resume
+      </a>
+    </div>
+  </nav>
+</header>
+
+<main class="project-case-study">
+
+  <!-- =========================
+       PROJECT INTRODUCTION
+  ========================== -->
+
+  <section class="project-intro reveal">
+
+    <a class="project-back-link" href="projects.html">
+      ← Back to Projects
+    </a>
+
+    <p class="tag">
+      Commercial Product Improvement
+    </p>
+
+    <h1>
+      1080 Motion Cable Guide
+    </h1>
+
+    <p class="project-intro-text">
+      A production-ready 3D-printed component designed to prevent
+      premature cable wear on a commercial motion-training system.
+      The project involved identifying the root cause, designing a
+      retrofit solution, validating the fit, and producing multiple
+      units for deployment.
+    </p>
+
+    <div class="project-metadata">
+
+      <div>
+        <span>Role</span>
+        <strong>
+          CAD, prototyping, testing, documentation
+        </strong>
+      </div>
+
+      <div>
+        <span>Focus</span>
+        <strong>
+          Root cause analysis and product reliability
+        </strong>
+      </div>
+
+      <div>
+        <span>Outcome</span>
+        <strong>
+          Production-ready preventative solution
+        </strong>
+      </div>
+
+    </div>
+
+    <figure class="project-hero-figure">
+      <img
+        src="mounted.jpeg"
+        alt="1080 Motion cable guide installed on the pole assembly"
+      />
+
+      <figcaption>
+        Final cable guide installed on the commercial pole assembly.
+      </figcaption>
+    </figure>
+
+  </section>
+
+  <!-- =========================
+       PROJECT OVERVIEW
+  ========================== -->
+
+  <section class="case-overview reveal">
+
+    <div>
+      <p class="tag">
+        Project Overview
+      </p>
+
+      <h2>
+        Solving a recurring hardware problem with a simple retrofit.
+      </h2>
+    </div>
+
+    <div class="case-overview-text">
+      <p>
+        During technical inspection and repair work, I identified
+        repeated cable damage near the upper pulley assembly. The
+        cable was contacting an aluminum edge during operation,
+        gradually wearing through the outer material.
+      </p>
+
+      <p>
+        The goal was to create a durable solution that could be
+        installed using the existing hardware, preserve normal cable
+        movement, and avoid permanent modifications to the original
+        product.
+      </p>
+    </div>
+
+  </section>
+
+  <!-- =========================
+       PROBLEM
+  ========================== -->
+
+  <section class="case-study-row reveal">
+
+    <div class="case-study-copy">
+
+      <p class="tag">
+        01 / Problem
+      </p>
+
+      <h2>
+        Repeated contact was causing premature cable wear.
+      </h2>
+
+      <p>
+        The cable path placed the cable against a sharp aluminum edge
+        near the upper assembly. Continued friction damaged the cable
+        covering and increased the likelihood of future failure.
+      </p>
+
+      <p>
+        The issue required more than replacing the cable. A permanent
+        solution needed to address the source of the damage.
+      </p>
+
+    </div>
+
+    <figure class="case-study-figure">
+
+      <img
+        src="issue.jpeg"
+        alt="Damaged cable showing abrasion"
+      />
+
+      <figcaption>
+        Cable damage observed during inspection.
+      </figcaption>
+
+    </figure>
+
+  </section>
+
+  <!-- =========================
+       DESIGN
+  ========================== -->
+
+  <section class="case-study-band">
+
+    <div class="case-study-row reverse reveal">
+
+      <figure class="case-study-figure">
+
+        <img
+          src="rendering.png"
+          alt="CAD rendering of the 1080 Motion cable guide"
+        />
+
+        <figcaption>
+          CAD model of the final retrofit component.
+        </figcaption>
+
+      </figure>
+
+      <div class="case-study-copy">
+
+        <p class="tag">
+          02 / Design
+        </p>
+
+        <h2>
+          Built around the existing product.
+        </h2>
+
+        <p>
+          I measured the original assembly and designed a form-fitting
+          component that uses the existing mounting points. Rounded
+          geometry redirects the cable away from the damaging surface
+          while preserving clearance around the pulley and cable path.
+        </p>
+
+        <ul class="clean-list">
+          <li>Uses existing mounting locations</li>
+          <li>Requires no permanent modification</li>
+          <li>Maintains pulley and cable clearance</li>
+          <li>Designed for repeatable manufacturing</li>
+        </ul>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- =========================
+       PROTOTYPING
+  ========================== -->
+
+  <section class="case-study-row reveal">
+
+    <div class="case-study-copy">
+
+      <p class="tag">
+        03 / Prototyping
+      </p>
+
+      <h2>
+        Rapid iteration through additive manufacturing.
+      </h2>
+
+      <p>
+        The part was manufactured using a Bambu Lab 3D printer,
+        allowing the physical geometry to be evaluated directly on
+        the commercial system.
+      </p>
+
+      <p>
+        Prototyping made it possible to verify mounting alignment,
+        cable clearance, and overall fit before producing additional
+        units.
+      </p>
+
+    </div>
+
+    <figure class="case-study-figure">
+
+      <img
+        src="prototype.jpeg"
+        alt="Cable guide prototype being 3D printed"
+      />
+
+      <figcaption>
+        Prototype manufacturing and fit validation.
+      </figcaption>
+
+    </figure>
+
+  </section>
+
+  <!-- =========================
+       PRODUCTION
+  ========================== -->
+
+  <section class="case-study-band">
+
+    <div class="case-study-row reverse reveal">
+
+      <figure class="case-study-figure">
+
+        <img
+          src="production.jpeg"
+          alt="Multiple 1080 Motion cable guides produced together"
+        />
+
+        <figcaption>
+          Multiple validated units produced in one print cycle.
+        </figcaption>
+
+      </figure>
+
+      <div class="case-study-copy">
+
+        <p class="tag">
+          04 / Production
+        </p>
+
+        <h2>
+          Prepared for repeatable deployment.
+        </h2>
+
+        <p>
+          After validating the design, multiple parts were produced
+          simultaneously to support installation across additional
+          systems.
+        </p>
+
+        <p>
+          The batch layout increased manufacturing throughput while
+          maintaining dimensional consistency between components.
+        </p>
+
+        <ul class="clean-list">
+          <li>Multiple units produced per print cycle</li>
+          <li>Mounting-hole consistency verified</li>
+          <li>Installation hardware standardized</li>
+          <li>Technical instructions prepared for deployment</li>
+        </ul>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- =========================
+       RESULTS
+  ========================== -->
+
+  <section class="case-results reveal">
+
+    <p class="tag">
+      05 / Results
+    </p>
+
+    <h2>
+      A focused solution that addresses the root cause.
+    </h2>
+
+    <div class="case-results-list">
+
+      <div class="case-result-item">
+        <span class="result-check">✓</span>
+
+        <div>
+          <strong>
+            Eliminated cable contact
+          </strong>
+
+          <p>
+            Redirects the cable away from the aluminum wear point.
+          </p>
+        </div>
+      </div>
+
+      <div class="case-result-item">
+        <span class="result-check">✓</span>
+
+        <div>
+          <strong>
+            Retrofit installation
+          </strong>
+
+          <p>
+            Uses existing fasteners and requires no permanent changes.
+          </p>
+        </div>
+      </div>
+
+      <div class="case-result-item">
+        <span class="result-check">✓</span>
+
+        <div>
+          <strong>
+            Production-ready design
+          </strong>
+
+          <p>
+            Validated on commercial hardware and manufactured in batches.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- =========================
+       ENGINEERING TAKEAWAYS
+  ========================== -->
+
+  <section class="case-takeaways reveal">
+
+    <div>
+
+      <p class="tag">
+        Engineering Takeaways
+      </p>
+
+      <h2>
+        Solving the problem required more than creating a CAD model.
+      </h2>
+
+    </div>
+
+    <div class="case-takeaways-text">
+
+      <p>
+        This project reinforced the importance of identifying the
+        underlying failure before developing a solution. The final
+        part needed to fit the existing assembly, guide the cable
+        without introducing additional friction, and be simple enough
+        to manufacture and deploy repeatedly.
+      </p>
+
+      <p>
+        It strengthened my experience with rapid prototyping,
+        mechanical fitment, design iteration, hardware validation,
+        and creating practical improvements for commercial equipment.
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- =========================
+       SKILLS
+  ========================== -->
+
+  <section class="case-skills reveal">
+
+    <p class="tag">
+      Skills Demonstrated
+    </p>
+
+    <div class="tags large-tags">
+      <span>Root Cause Analysis</span>
+      <span>CAD Design</span>
+      <span>Rapid Prototyping</span>
+      <span>3D Printing</span>
+      <span>Design for Manufacturing</span>
+      <span>Hardware Validation</span>
+      <span>Fit & Clearance Testing</span>
+      <span>Technical Documentation</span>
+      <span>Product Reliability</span>
+    </div>
+
+  </section>
+
+  <!-- =========================
+       NEXT PROJECT
+  ========================== -->
+
+  <section class="case-footer reveal">
+
+    <p>
+      Continue exploring my engineering work.
+    </p>
+
+    <a class="btn primary" href="projects.html">
+      View All Projects
+    </a>
+
+  </section>
+
+</main>
+
+</body>
+</html>
