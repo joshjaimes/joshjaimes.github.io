@@ -574,3 +574,351 @@ li {
     filter: none;
   }
 }
+/* ==========================================
+   1080 MOTION CASE STUDY
+========================================== */
+
+.project-case-study {
+  overflow: hidden;
+}
+
+.project-intro {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 5rem 1.25rem 6rem;
+}
+
+.project-back-link {
+  display: inline-block;
+  margin-bottom: 2.5rem;
+  color: var(--muted);
+  font-weight: 700;
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.project-back-link:hover {
+  color: var(--text);
+  transform: translateX(-3px);
+}
+
+.project-intro h1 {
+  max-width: 900px;
+  font-size: clamp(3.5rem, 8vw, 7rem);
+}
+
+.project-intro-text {
+  max-width: 760px;
+  margin: 1.6rem 0 2.5rem;
+  color: var(--muted);
+  font-size: 1.15rem;
+}
+
+.project-metadata {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 3rem 0;
+}
+
+.project-metadata div {
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.project-metadata span,
+.project-metadata strong {
+  display: block;
+}
+
+.project-metadata span {
+  margin-bottom: 0.35rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.project-metadata strong {
+  font-size: 0.98rem;
+}
+
+.project-hero-figure {
+  max-width: 850px;
+  margin: 4rem auto 0;
+}
+
+.project-hero-figure img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border: 1px solid var(--border);
+  border-radius: 28px;
+  box-shadow: 0 20px 55px rgba(0, 0, 0, 0.12);
+}
+
+.project-hero-figure figcaption,
+.case-study-figure figcaption {
+  margin-top: 0.75rem;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.case-overview {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 7rem 1.25rem;
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 4rem;
+  align-items: start;
+  border-top: 1px solid var(--border);
+}
+
+.case-overview h2,
+.case-study-copy h2,
+.case-results h2,
+.case-takeaways h2 {
+  font-size: clamp(2rem, 4vw, 3.8rem);
+}
+
+.case-overview-text p,
+.case-study-copy p,
+.case-takeaways-text p {
+  color: var(--muted);
+  font-size: 1.06rem;
+}
+
+.case-study-row {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 8rem 1.25rem;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 5rem;
+  align-items: center;
+}
+
+.case-study-row.reverse {
+  grid-template-columns: 0.8fr 1.2fr;
+}
+
+.case-study-band {
+  background: #eeeeea;
+}
+
+.case-study-copy {
+  max-width: 620px;
+}
+
+.case-study-copy h2 {
+  margin-bottom: 1.4rem;
+}
+
+.case-study-figure {
+  margin: 0;
+  width: 100%;
+}
+
+.case-study-figure img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  box-shadow: 0 14px 38px rgba(0, 0, 0, 0.1);
+
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+.case-study-figure img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 22px 55px rgba(0, 0, 0, 0.16);
+}
+
+.clean-list {
+  margin: 1.8rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.clean-list li {
+  position: relative;
+  padding: 0.8rem 0 0.8rem 1.6rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.clean-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: 800;
+}
+
+.case-results {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 8rem 1.25rem;
+}
+
+.case-results > h2 {
+  max-width: 760px;
+  margin-bottom: 3rem;
+}
+
+.case-results-list {
+  border-top: 1px solid var(--border);
+}
+
+.case-result-item {
+  display: grid;
+  grid-template-columns: 42px 1fr;
+  gap: 1rem;
+  padding: 1.6rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.result-check {
+  color: var(--accent);
+  font-size: 1.35rem;
+  font-weight: 900;
+}
+
+.case-result-item strong {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-size: 1.1rem;
+}
+
+.case-result-item p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.case-takeaways {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 8rem 1.25rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  border-top: 1px solid var(--border);
+}
+
+.case-skills {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 6rem 1.25rem 8rem;
+}
+
+.large-tags {
+  gap: 0.65rem;
+}
+
+.large-tags span {
+  padding: 0.55rem 0.85rem;
+  font-size: 0.92rem;
+}
+
+.case-footer {
+  padding: 6rem 1.25rem;
+  text-align: center;
+  background: var(--text);
+  color: var(--bg);
+}
+
+.case-footer p {
+  margin-bottom: 1.5rem;
+  font-size: 1.15rem;
+}
+
+.case-footer .primary {
+  background: var(--bg);
+  color: var(--text);
+  border-color: var(--bg);
+}
+
+/* ==========================================
+   CASE STUDY TABLET
+========================================== */
+
+@media (max-width: 900px) {
+  .project-metadata {
+    grid-template-columns: 1fr;
+  }
+
+  .case-overview,
+  .case-study-row,
+  .case-study-row.reverse,
+  .case-takeaways {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .case-study-row,
+  .case-overview,
+  .case-takeaways {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .case-study-row.reverse .case-study-figure {
+    order: 2;
+  }
+
+  .case-study-row.reverse .case-study-copy {
+    order: 1;
+  }
+
+  .project-hero-figure {
+    max-width: 100%;
+  }
+}
+
+/* ==========================================
+   CASE STUDY MOBILE
+========================================== */
+
+@media (max-width: 600px) {
+  .project-intro {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+  }
+
+  .project-intro h1 {
+    font-size: clamp(2.8rem, 14vw, 4.4rem);
+  }
+
+  .project-intro-text {
+    font-size: 1rem;
+  }
+
+  .project-hero-figure {
+    margin-top: 2.5rem;
+  }
+
+  .project-hero-figure img,
+  .case-study-figure img {
+    border-radius: 18px;
+    aspect-ratio: 4 / 3;
+  }
+
+  .case-study-row,
+  .case-overview,
+  .case-results,
+  .case-takeaways,
+  .case-skills {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .case-result-item {
+    grid-template-columns: 32px 1fr;
+  }
+}
