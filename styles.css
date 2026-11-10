@@ -922,3 +922,8 @@ li {
     grid-template-columns: 32px 1fr;
   }
 }
+
+/* Cards marked with the "hidden" attribute stay off the page */
+[hidden] {
+  display: none !important;
+}
